@@ -47,7 +47,7 @@ const Utility = () => {
   }, []);
   const fetchdata = async () => {
     let data = await fetch(
-      "http://localhost:8000/api/bookings"
+      "https://yogavibehub-server.vercel.app/api/bookings"
     );
     let jsondata = await data.json();
     setapidata(jsondata);

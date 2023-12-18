@@ -20,7 +20,7 @@ const AddBooking = () => {
     //console.log(JSON.stringify(data))
     try {
       let response = await fetch(
-        "http://localhost:8000/api/addBooking",
+        "https://yogavibehub-server.vercel.app/api/addBooking",
         {
           method: "POST",
           headers: {
