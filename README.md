@@ -1,5 +1,5 @@
-# Frontend- React.js, Vite.js
-# Backend- Node.js, Express.js, MongoDB, Prisma.
+**Frontend- React.js, Vite.js** <br>
+**Backend- Node.js, Express.js, MongoDB, Prisma.**
 
 # API Documentation for Backend:-
 
