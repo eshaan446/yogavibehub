@@ -47,10 +47,13 @@
   - Requires the ID of the user to be deleted.
   - Response confirms successful deletion.
  
-## Schema Design for MongoDB database
+## Schema Design for MongoDB database:-
 **Database Name:** Cluster0
 **Collection Name:** User
 ![mongodbschema](https://github.com/eshaan446/yogavibehub/assets/84571751/cbea2ffd-c339-496e-b3b7-8c8509da5554)
+## Schema Design with seed data:-
+![mongomd](https://github.com/eshaan446/yogavibehub/assets/84571751/d267ef1b-a0f0-4b7e-aa19-9efe791c5f4a)
+
 
 
 For any queries or issues, contact: eshaanpandeyk540@gmail.com
