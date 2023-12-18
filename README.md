@@ -46,5 +46,9 @@
 - **Additional Notes:**
   - Requires the ID of the user to be deleted.
   - Response confirms successful deletion.
+ 
+## Schema Design for MongoDB database
+![mongodbschema](https://github.com/eshaan446/yogavibehub/assets/84571751/cbea2ffd-c339-496e-b3b7-8c8509da5554)
+
 
 For any queries or issues, contact: eshaanpandeyk540@gmail.com
