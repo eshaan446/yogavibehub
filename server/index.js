@@ -58,7 +58,7 @@ app.get('/', (req, res) => {
       <body>
         <div class="container">
           <h1>This a plain HTML page served by Express.</h1>
-          <h2>Visit the frontend of the website <a href="https://yogavibehub.vercel.app/"></a></h2>
+          <h1>Visit the frontend of the website <a href="https://yogavibehub.vercel.app/">YogaVibeHub</a></h1>
           <!-- Add your content here -->
         </div>
         <!-- Add your scripts or other footer content here -->
