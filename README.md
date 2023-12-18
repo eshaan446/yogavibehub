@@ -48,6 +48,8 @@
   - Response confirms successful deletion.
  
 ## Schema Design for MongoDB database
+**Database Name:** Cluster0
+**Collection Name:** User
 ![mongodbschema](https://github.com/eshaan446/yogavibehub/assets/84571751/cbea2ffd-c339-496e-b3b7-8c8509da5554)
 
 
