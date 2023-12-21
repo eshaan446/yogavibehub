@@ -13,6 +13,7 @@ const AddBooking = () => {
   const [name, setName] = useState("");
   const [age, setAge] = useState('');
   const [batch, setBatch] = useState("6-7AM");
+  const[inputError,setInputError]=useState(false)
  
 
   const fetchdata = async (data) => {
@@ -56,6 +57,17 @@ const AddBooking = () => {
     }
   };
   
+  function handleInputChange(e){
+    const enteredValue = e.target.value;
+
+    const regex = /^[a-zA-Z\s]+$/;
+    if (enteredValue === '' || regex.test(enteredValue)) {
+      setName(enteredValue);
+      setInputError(false)
+    }else{
+      setInputError(true)
+    }
+  }
   const handleSubmit = (e) => {
     e.preventDefault();
     let data = {
@@ -80,7 +92,8 @@ const AddBooking = () => {
           <span>
             <small className="heading">Enter your Full Name:</small>
           </span>
-          <input type="text" value={name} onChange={(e)=>setName(e.target.value)} required/>
+          <input type="text" value={name} onChange={handleInputChange} required/>
+          {inputError && <span style={{margin:'0px',color:'red'}}><small><i>Please provide a valid name</i></small></span>}
          
           <span>
             <small className="heading"> Enter your age:</small>
